@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+* {
+  font-family: 'Cabin';
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: aliceblue;
+  background-image: url('img-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  width: 90%;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+.wrapper .input-box{
+  position: relative;
+  width: 80%;
+  height: 40px;
+  margin-top: 20px;
+  
+}
+
+.input-box input {
+  width: 100%;
+  background-color: transparent;
+  height: 100%;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  padding: 20px 40px 20px 20px;
+  color: aliceblue;
+}
+
+.wrapper .get-started{
+  width: 80%;
+  margin-bottom: 5px;
+  background-color: #1b1b1b;
+  color: aliceblue;
+  height: 45px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper .get-started:hover{
+  background-color: #212121;
+}
+
+.forgot {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 200px;
+}
+
+.wrapper p {
+  color: aliceblue;
+}
+
+.no-account {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.wrapper input::placeholder{
+  color: aliceblue;
+}
+
+.forgot a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.forgot a:hover {
+  text-decoration: underline;
+}
+
+.no-account a{
+  color: aliceblue;
+  text-decoration: none;
+  
+}
+
+.no-account a:hover{
+  text-decoration: underline;
+}
+
+.sign-in-with {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1b1b1b;
+  width: 80%;
+}
+
+.sign-in-with button{
+  width: 100px;
+  height: 35px;
+  margin-left: 2px;
+  margin-right: 2px;
+  border-radius: 5px;
+  border: none;
+}
+
